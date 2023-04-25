@@ -590,7 +590,6 @@ function Luxt1.CreateWindow(libName, logoId)
                                     checkBtn.ImageRectOffset = Vector2.new(940, 784)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
                                 end
-                                wait(1)
                                 togDe = false
                             end
                     end)
@@ -1248,7 +1247,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.MouseLeave:Connect(function()
                                             game.TweenService:Create(optionBtn1, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                                                 BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                                TextColor3 = Color3.fromRGB(120, 200, 187)
+                                                TextColor3 = Color3.fromRGB(205, 205, 205)
                                             }):Play()
                                         end)
                                 end
